@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{163D0BCB-1B76-47A6-95B8-E79090324C44}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{60DDF934-A5F6-4EA7-9CF5-42176E45FEF3}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{E941369A-D2A4-4B86-AB4B-C67415F96709}">
+								<Image FileName="1991668388" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pagePostbank" Key="{B637E85A-7C4B-4B93-B5F6-D4A60112F812}">
+								<Image FileName="1991668388" Left="5" Top="87" Right="1865" Bottom="1024" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.e-postbank.bg/individual/page/default.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formMForm" Key="{0242B982-4A57-42FA-BF93-6F958753326A}">
+										<Image FileName="1991668388" Left="5" Top="87" Right="1846" Bottom="1779" />
+										<Selectors>
+											<Selector>
+												<Value Value="#m_Form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;m_Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Митко Тест Тест (884818)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWidgetcontainer" Key="{E3E0337B-002C-4C3C-AD9C-F0CBB355DBD0}">
+										<Image FileName="1072690744" Left="330" Top="151" Right="1846" Bottom="241" />
+										<Selectors>
+											<Selector>
+												<Value Value="#WidgetContainer" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;240&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;WidgetDraggable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{0876F667-9EB2-4834-B14F-280A189DBD3E}">
+										<Image FileName="1072690744" Left="331" Top="218" Right="412" Bottom="235" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li[@id=&apos;MiniWidgetID_3&apos;]/a[contains(@class, &apos;sectionbutton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageIconAccountsBgPng" Key="{0CECCCC8-BD87-41F4-B8B7-4EC0A0F33C7D}">
+										<Image FileName="1072690744" Left="331" Top="151" Right="412" Bottom="232" />
+										<TypeInfo Item0="{876872E2-7F2F-4C2A-86C9-C72B40D5B0AA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]/a/img[@title=&apos;Влачете и пуснете иконка в ляво или дясно&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;MiniWidgetID_3&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;WidgetContainer&apos;]/li/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{60DDF934-A5F6-4EA7-9CF5-42176E45FEF3}">
+			<Child Name="BrowserWindow" Owner="{E941369A-D2A4-4B86-AB4B-C67415F96709}" />
+			<Child Name="pagePostbank" Owner="{B637E85A-7C4B-4B93-B5F6-D4A60112F812}">
+				<Child Name="formMForm" Owner="{0242B982-4A57-42FA-BF93-6F958753326A}">
+					<Child Name="textnodeWidgetcontainer" Owner="{E3E0337B-002C-4C3C-AD9C-F0CBB355DBD0}">
+						<Child Name="link" Owner="{0876F667-9EB2-4834-B14F-280A189DBD3E}">
+							<Child Name="imageIconAccountsBgPng" Owner="{0CECCCC8-BD87-41F4-B8B7-4EC0A0F33C7D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
